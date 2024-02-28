@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Rubik Glitch Pop", system-ui;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url(../image/Image.jpg);
+    background-size: cover;
+}
+.margin{
+    margin-top: 150px;
+}
+
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.title{
+    margin-top: 15px;
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    text-shadow: 0 3px 7px skyblue;
+}
+.col{
+    width: 100%;
+    height: auto;
+    color: yellowgreen;
+    text-shadow: 0 3px 7px lime;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+.col div{
+    margin-top: 10px;
+    width: 250px;
+    text-align: center;
+
+}
+input{
+    width: 60%;
+    color: #2daa63;
+    background-color: rgb(255, 255, 255, );
+    border-color: transparent;
+    border-radius: 8px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+}
